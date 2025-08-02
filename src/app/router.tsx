@@ -3,6 +3,6 @@ import HomePage from '../pages/home/HomePage';
 
 export const AppRouter = () => (
   <Routes>
-    <Route path="/" element={<HomePage />} />
+    <Route path="/" element= { < HomePage />} />
   </Routes>
 );
