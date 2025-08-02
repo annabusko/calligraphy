@@ -5,4 +5,4 @@ export const TaskBuilder = () => {
       {/* Add your task building UI components here */}
     </div>
   );
-}
+};
