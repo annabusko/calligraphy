@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-homepage {
+  @apply min-h-screen bg-cover bg-center bg-no-repeat;
+  background-image: url('/images/homepage-bg.webp');
+}
