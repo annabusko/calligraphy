@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-homepage {
+.bg-layout {
   @apply min-h-screen bg-cover bg-center bg-no-repeat;
+}
+
+.bg-homepage {
   background-image: url('/images/homepage-bg.webp');
+}
+
+.bg-handwriting {
+  background-image: url('/images/handwriting-bg.webp');
 }
