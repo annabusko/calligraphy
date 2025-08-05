@@ -1,10 +1,59 @@
 {
-  "title": "Handwriting sheets you’ll want to write",
+  "appName": "Calligraphy Practice",
+  "title": "Handwriting sheets you'll want to write",
   "subtitle": "Cursive and print writing practice for kids — online or to print.",
+  "cta": "Get Started",
   "menu": {
     "tracing": "Tracing Sheets",
     "how": "How It Works",
     "print": "Print",
     "about": "About"
+  },
+  "languageSwitcher": {
+    "label": "Language selection",
+    "selectLabel": "Select language"
+  },
+  "features": {
+    "title": "Practice Made Perfect",
+    "tracing": {
+      "title": "Letter Tracing",
+      "description": "Practice writing letters with guided tracing exercises."
+    },
+    "words": {
+      "title": "Word Practice",
+      "description": "Build vocabulary while improving handwriting skills."
+    },
+    "print": {
+      "title": "Print Ready",
+      "description": "Download and print worksheets for offline practice."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": {
+      "title": "Choose",
+      "description": "Select letters, words, or sentences to practice"
+    },
+    "step2": {
+      "title": "Practice",
+      "description": "Trace and write using our guided exercises"
+    },
+    "step3": {
+      "title": "Improve",
+      "description": "Watch your handwriting skills develop over time"
+    }
+  },
+  "printSection": {
+    "title": "Print & Practice Anywhere",
+    "description": "Generate beautiful handwriting worksheets that you can print and use offline.",
+    "cta": "Create Worksheet"
+  },
+  "about": {
+    "title": "About Calligraphy Practice",
+    "description": "We believe that beautiful handwriting is a skill worth developing. Our platform provides engaging, interactive tools to help children and adults improve their penmanship through structured practice and fun exercises."
+  },
+  "footer": {
+    "tagline": "Making handwriting practice enjoyable and effective.",
+    "rights": "All rights reserved."
   }
 }
