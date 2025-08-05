@@ -1,10 +1,59 @@
 {
+  "appName": "Kaligrafia",
   "title": "Szablony, które chce się pisać",
   "subtitle": "Nauka pisania i kaligrafii dla dzieci — online i do wydrukowania.",
+  "cta": "Rozpocznij",
   "menu": {
     "tracing": "Szablony",
     "how": "Jak to działa",
     "print": "Wydrukuj",
     "about": "O nas"
+  },
+  "languageSwitcher": {
+    "label": "Wybór języka",
+    "selectLabel": "Wybierz język"
+  },
+  "features": {
+    "title": "Doskonała praktyka",
+    "tracing": {
+      "title": "Obrysowywanie liter",
+      "description": "Ćwicz pisanie liter z pomocą ukierunkowanych ćwiczeń."
+    },
+    "words": {
+      "title": "Praktyka słów",
+      "description": "Rozwijaj słownictwo, jednocześnie poprawiając umiejętności pisania."
+    },
+    "print": {
+      "title": "Gotowe do druku",
+      "description": "Pobieraj i drukuj arkusze ćwiczeń do praktyki offline."
+    }
+  },
+  "howItWorks": {
+    "title": "Jak to działa",
+    "step1": {
+      "title": "Wybierz",
+      "description": "Wybierz litery, słowa lub zdania do ćwiczenia"
+    },
+    "step2": {
+      "title": "Ćwicz",
+      "description": "Obrysowuj i pisz, używając naszych ukierunkowanych ćwiczeń"
+    },
+    "step3": {
+      "title": "Doskonał się",
+      "description": "Obserwuj, jak rozwijają się twoje umiejętności pisania"
+    }
+  },
+  "printSection": {
+    "title": "Drukuj i ćwicz wszędzie",
+    "description": "Twórz piękne arkusze ćwiczeń pisania, które możesz wydrukować i używać offline.",
+    "cta": "Utwórz arkusz"
+  },
+  "about": {
+    "title": "O Kaligrafia",
+    "description": "Wierzymy, że piękne pismo to umiejętność warta rozwijania. Nasza platforma zapewnia angażujące, interaktywne narzędzia, które pomagają dzieciom i dorosłym poprawić swoje pismo przez ustrukturyzowaną praktykę i zabawne ćwiczenia."
+  },
+  "footer": {
+    "tagline": "Sprawiamy, że praktyka pisania jest przyjemna i skuteczna.",
+    "rights": "Wszelkie prawa zastrzeżone."
   }
 }
