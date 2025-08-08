@@ -12,31 +12,35 @@ export const HomePage = () => {
   return (
     <main className="min-h-screen bg-[#fefaf3] text-gray-800">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-[#fefaf3]/95 backdrop-blur-sm border-b border-orange-100">
-        <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
-          <div className="text-xl font-bold text-orange-600">{t('appName', 'Прописи')}</div>
+      <header 
+        className="sticky top-0 z-50 bg-cover bg-center bg-no-repeat border-b border-orange-100/50"
+        style={{ backgroundImage: "url('/images/homepage-bg.webp')" }}
+      >
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+        <div className="relative z-10 max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+          <div className="text-xl font-bold text-white">{t('appName', 'Прописи')}</div>
           <nav className="flex gap-6 items-center text-sm font-medium">
             <button 
               onClick={() => scrollToSection('tracing')}
-              className="hover:text-orange-600 transition-colors focus:outline-none focus:text-orange-600"
+              className="text-white/90 hover:text-white transition-colors focus:outline-none focus:text-white"
             >
               {t('menu.tracing')}
             </button>
             <button 
               onClick={() => scrollToSection('how')}
-              className="hover:text-orange-600 transition-colors focus:outline-none focus:text-orange-600"
+              className="text-white/90 hover:text-white transition-colors focus:outline-none focus:text-white"
             >
               {t('menu.how')}
             </button>
             <button 
               onClick={() => scrollToSection('print')}
-              className="hover:text-orange-600 transition-colors focus:outline-none focus:text-orange-600"
+              className="text-white/90 hover:text-white transition-colors focus:outline-none focus:text-white"
             >
               {t('menu.print')}
             </button>
             <button 
               onClick={() => scrollToSection('about')}
-              className="hover:text-orange-600 transition-colors focus:outline-none focus:text-orange-600"
+              className="text-white/90 hover:text-white transition-colors focus:outline-none focus:text-white"
             >
               {t('menu.about')}
             </button>

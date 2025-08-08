@@ -5,7 +5,7 @@ export interface Language {
 }
 
 export const SUPPORTED_LANGUAGES: Language[] = [
-  { code: 'ru', name: 'Russian', nativeName: 'Русский' },
-  { code: 'pl', name: 'Polish', nativeName: 'Polski' },
-  { code: 'en', name: 'English', nativeName: 'English' },
+  { code: 'ru', name: 'Russian', nativeName: 'Ru' },
+  { code: 'pl', name: 'Polish', nativeName: 'Pl' },
+  { code: 'en', name: 'English', nativeName: 'En' },
 ];
