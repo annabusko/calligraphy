@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-page: #F7E7CB; 
+  --bg-hero-image: url('/images/homepage-bg.webp');
+  --bg-hero-solid: #314E42;
+}
+
+body {
+  background: var(--bg-page);
+}
+
+.bg-layout {
+  @apply min-h-screen bg-cover bg-center bg-no-repeat;
+}
+
+.bg-hero {
+  background-color: var(--bg-hero-solid);
+  background-image: var(--bg-hero-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

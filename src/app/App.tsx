@@ -1,7 +1,8 @@
 import { BrowserRouter } from 'react-router-dom';
 import { RootLayout } from './layout/RootLayout';
 import { AppRouter } from './router';
-import '../styles/index.css'; // Import global styles
+import '../styles/global.css';
+import '../i18n/config/i18n';
 
 export const App = () => (
   <BrowserRouter>
